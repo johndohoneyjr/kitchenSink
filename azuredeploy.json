@@ -56,8 +56,10 @@
             "type": "String"
         }
     },
-    "variables": {},
-    "resources": [
+"variables": {
+    "iotHubKey": "iothubowner"
+  },
+"resources": [
 {
       "type": "Microsoft.Devices/IotHubs",
       "apiVersion": "2021-07-02",
